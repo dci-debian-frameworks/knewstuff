@@ -1,0 +1,158 @@
+Index: knewstuff-4.95.0/KF5NewStuffConfig.cmake.in
+===================================================================
+--- knewstuff-4.95.0.orig/KF5NewStuffConfig.cmake.in	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/KF5NewStuffConfig.cmake.in	2014-01-23 17:32:27.000000000 -0800
+@@ -6,6 +6,6 @@
+ 
+ find_dependency(Qt5Widgets @REQUIRED_QT_VERSION@)
+ 
+-find_dependency(LibAttica "1.0.0")
++find_dependency(LibKF5Attica "1.0.0")
+ 
+ include("${CMAKE_CURRENT_LIST_DIR}/KF5NewStuffTargets.cmake")
+Index: knewstuff-4.95.0/src/CMakeLists.txt
+===================================================================
+--- knewstuff-4.95.0.orig/src/CMakeLists.txt	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/CMakeLists.txt	2014-01-23 17:32:27.000000000 -0800
+@@ -6,8 +6,8 @@
+ add_definitions(-DKDE_DEFAULT_DEBUG_AREA=550)
+ remove_definitions(-DQT_NO_CAST_FROM_ASCII)
+ 
+-find_package(LibAttica 1.0.0 NO_MODULE)
+-set_package_properties(LibAttica PROPERTIES DESCRIPTION "A Qt library that implements the Open Collaboration Services API"
++find_package(LibKF5Attica 1.0.0 NO_MODULE)
++set_package_properties(LibKF5Attica PROPERTIES DESCRIPTION "A Qt library that implements the Open Collaboration Services API"
+                        PURPOSE "Support for Get Hot New Stuff in KNewStuff"
+                        URL "https://projects.kde.org/attica"
+                        TYPE REQUIRED
+
+Index: knewstuff-4.95.0/src/attica/atticaprovider.cpp
+===================================================================
+--- knewstuff-4.95.0.orig/src/attica/atticaprovider.cpp	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/attica/atticaprovider.cpp	2014-01-23 17:32:27.000000000 -0800
+@@ -22,13 +22,13 @@
+ #include <kio/job.h>
+ #include <kmessagebox.h>
+ 
+-#include <attica/providermanager.h>
+-#include <attica/provider.h>
+-#include <attica/listjob.h>
+-#include <attica/content.h>
+-#include <attica/downloaditem.h>
+-#include <attica/accountbalance.h>
+-#include <attica/person.h>
++#include <KF5Attica/providermanager.h>
++#include <KF5Attica/provider.h>
++#include <KF5Attica/listjob.h>
++#include <KF5Attica/content.h>
++#include <KF5Attica/downloaditem.h>
++#include <KF5Attica/accountbalance.h>
++#include <KF5Attica/person.h>
+ 
+ using namespace Attica;
+ 
+Index: knewstuff-4.95.0/src/core/engine.cpp
+===================================================================
+--- knewstuff-4.95.0.orig/src/core/engine.cpp	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/core/engine.cpp	2014-01-23 18:31:32.861870322 -0800
+@@ -46,7 +46,7 @@
+ #endif
+ 
+ // libattica
+-#include <attica/providermanager.h>
++#include <KF5Attica/providermanager.h>
+ #include <qstandardpaths.h>
+ 
+ // own
+Index: knewstuff-4.95.0/src/attica/atticaprovider_p.h
+===================================================================
+--- knewstuff-4.95.0.orig/src/attica/atticaprovider_p.h	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/attica/atticaprovider_p.h	2014-01-23 18:31:10.365870814 -0800
+@@ -20,8 +20,8 @@
+ #include <QtCore/QSet>
+ #include <QtCore/QPointer>
+ 
+-#include <attica/providermanager.h>
+-#include <attica/provider.h>
++#include <KF5Attica/providermanager.h>
++#include <KF5Attica/provider.h>
+ 
+ #include "core/provider_p.h"
+ 
+Index: knewstuff-4.95.0/src/ui/entrydetailsdialog.cpp
+===================================================================
+--- knewstuff-4.95.0.orig/src/ui/entrydetailsdialog.cpp	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/ui/entrydetailsdialog.cpp	2014-01-23 17:32:27.000000000 -0800
+@@ -23,7 +23,7 @@
+ 
+ #include "core/engine_p.h"
+ #include "ui/imageloader_p.h"
+-#include <attica/provider.h>
++#include <KF5Attica/provider.h>
+ 
+ using namespace KNS3;
+ 
+Index: knewstuff-4.95.0/src/upload/atticahelper_p.h
+===================================================================
+--- knewstuff-4.95.0.orig/src/upload/atticahelper_p.h	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/upload/atticahelper_p.h	2014-01-23 17:32:27.000000000 -0800
+@@ -20,12 +20,12 @@
+ 
+ #include <QtCore/QStringList>
+ 
+-#include <attica/providermanager.h>
+-#include <attica/provider.h>
++#include <KF5Attica/providermanager.h>
++#include <KF5Attica/provider.h>
+ 
+-#include <attica/category.h>
+-#include <attica/content.h>
+-#include <attica/license.h>
++#include <KF5Attica/category.h>
++#include <KF5Attica/content.h>
++#include <KF5Attica/license.h>
+ 
+ class KJob;
+ namespace KIO
+Index: knewstuff-4.95.0/src/upload/atticahelper.cpp
+===================================================================
+--- knewstuff-4.95.0.orig/src/upload/atticahelper.cpp	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/upload/atticahelper.cpp	2014-01-23 17:32:27.000000000 -0800
+@@ -23,9 +23,9 @@
+ #include <kio/job.h>
+ #include <kio/scheduler.h>
+ 
+-#include <attica/listjob.h>
+-#include <attica/postjob.h>
+-#include <attica/accountbalance.h>
++#include <KF5Attica/listjob.h>
++#include <KF5Attica/postjob.h>
++#include <KF5Attica/accountbalance.h>
+ 
+ using namespace KNS3;
+ 
+Index: knewstuff-4.95.0/src/uploaddialog_p.h
+===================================================================
+--- knewstuff-4.95.0.orig/src/uploaddialog_p.h	2014-01-23 17:28:47.000000000 -0800
++++ knewstuff-4.95.0/src/uploaddialog_p.h	2014-01-23 17:32:27.000000000 -0800
+@@ -21,13 +21,13 @@
+ #include "upload/atticahelper_p.h"
+ #include "ui_uploaddialog.h"
+ 
+-#include <attica/providermanager.h>
+-#include <attica/provider.h>
+-#include <attica/category.h>
+-#include <attica/content.h>
+-#include <attica/listjob.h>
+-#include <attica/license.h>
+-#include <attica/postjob.h>
++#include <KF5Attica/providermanager.h>
++#include <KF5Attica/provider.h>
++#include <KF5Attica/category.h>
++#include <KF5Attica/content.h>
++#include <KF5Attica/listjob.h>
++#include <KF5Attica/license.h>
++#include <KF5Attica/postjob.h>
+ 
+ #include <QUrl>
+ 
