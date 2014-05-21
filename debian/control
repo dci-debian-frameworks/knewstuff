@@ -43,14 +43,14 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
-Multi-Arch: allowed
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5newstuff5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: allowed
+Multi-Arch: same
 Depends: libkf5newstuff5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for knewstuff
  Framework for downloading and sharing additional
