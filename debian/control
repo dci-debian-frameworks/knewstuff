@@ -39,7 +39,12 @@ Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 Package: libkf5newstuff5
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ libkf5archive-dev,
+ libkf5-kio-dev,
+ libkf5xmlgui-dev
+ libkf5attica-dev,
+ qtbase5-dev
 Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
