@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: knewstuff
 Source: https://projects.kde.org/projects/frameworks/knewstuff
 
-Files: *              
+Files: *
 Copyright: © 2007-2010 Frederik Gladhorn <gladhorn@kde.org>
            © 2003-2007 Josef Spillner <spillner@kde.org>
            © 2007-2009 Jeremy Whiting <jpwhiting@kde.org>
@@ -13,7 +13,7 @@ Copyright: © 2007-2010 Frederik Gladhorn <gladhorn@kde.org>
            © 2010 Matthias Fuchs <mat69@gmx.net>
            © 2004-2005 Andras Mantia <amantia@kde.org>
            © 2004 Aaron J. Seigo <aseigo@kde.org>
-License: LGPL-2.1+            
+License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -27,11 +27,11 @@ License: LGPL-2.1+
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
-Files:  src/core/upload.cpp       
+Files:  src/core/upload.cpp
 Copyright: 2007 Josef Spillner <spillner@kde.org>
            2007-2009 Frederik Gladhorn <gladhorn@kde.org>
            2009 Jeremy Whiting <jpwhiting@kde.org>
-License: LGPL-2 
+License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License version 2 as published by the Free Software Foundation.
