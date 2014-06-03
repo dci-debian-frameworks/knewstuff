@@ -8,6 +8,7 @@ knewstuff (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update symbols file.
+  * Fix control file, re-adding the -dev package.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:42:03 +0100
 

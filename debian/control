@@ -36,16 +36,26 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 
-Package: libkf5newstuff5
+Package: libkf5newstuff-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5-kio-dev,
          libkf5archive-dev,
-         libkf5xmlgui-dev
- libkf5attica-dev,
+         libkf5attica-dev,
+         libkf5newstuff5 (= ${binary:Version}),
+         libkf5xmlgui-dev,
          qtbase5-dev,
-         ${misc:Depends},
-         ${shlibs:Depends}
+         ${misc:Depends}
+Description: development files for knewstuff
+ Framework for downloading and sharing additional
+ application data.
+ .
+ Contains development files for knewstuff.
+
+Package: libkf5newstuff5
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
