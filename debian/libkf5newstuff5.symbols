@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.95.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS312UploadDialog10setVersionERK7QString@Base 4.95.0
  _ZN4KNS312UploadDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.95.0
@@ -126,6 +126,7 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS36ButtonD0Ev@Base 4.95.0
  _ZN4KNS36ButtonD1Ev@Base 4.95.0
  _ZN4KNS36ButtonD2Ev@Base 4.95.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  _ZNK4KNS312UploadDialog10metaObjectEv@Base 4.95.0
  _ZNK4KNS312UploadDialog7Private19_supportedMimeTypesEv@Base 4.95.0
  _ZNK4KNS314DownloadDialog10metaObjectEv@Base 4.95.0
