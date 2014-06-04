@@ -5,7 +5,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.12),
+               extra-cmake-modules (>= 0.0.14),
                kf5-kio-dev (>= 4.100.0),
                libkf5archive-dev (>= 4.100.0),
                libkf5attica-dev (>= 4.100.0),
@@ -39,7 +39,7 @@ Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 Package: libkf5newstuff-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5-kio-dev,
+Depends: kf5-kio-dev,
          libkf5archive-dev,
          libkf5attica-dev,
          libkf5newstuff5 (= ${binary:Version}),
