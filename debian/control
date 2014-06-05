@@ -60,7 +60,6 @@ Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5newstuff5-dbg
 Priority: extra
