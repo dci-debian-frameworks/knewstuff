@@ -39,7 +39,7 @@ Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 Package: libkf5newstuff-dev
 Section: libdevel
 Architecture: any
-Depends: kf5-kio-dev,
+Depends: kio-dev,
          libkf5archive-dev,
          libkf5attica-dev,
          libkf5newstuff5 (= ${binary:Version}),
