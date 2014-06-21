@@ -54,11 +54,25 @@ Description: development files for knewstuff
 
 Package: libkf5newstuff5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5newstuff-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
 Multi-Arch: same
+
+Package: libkf5newstuff-data
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Breaks: libkf5newstuff5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
+Replaces: libkf5newstuff5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
+Description: Support for downloading application assets from the network.
+ Framework for downloading and sharing additional
+ application data.
+ .
+ This package contains the data files.
 
 Package: libkf5newstuff5-dbg
 Priority: extra
