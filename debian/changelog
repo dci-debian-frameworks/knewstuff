@@ -18,6 +18,8 @@ knewstuff (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Build depend on kio-dev instead of kf5-kio-dev.
+  * Create libkf5newstuff-data to provide architecture independent
+    files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:42:03 +0100
 
