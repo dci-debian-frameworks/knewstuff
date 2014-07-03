@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS312UploadDialog10setVersionERK7QString@Base 4.95.0
  _ZN4KNS312UploadDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.95.0
@@ -59,6 +59,7 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS314DownloadDialog16installedEntriesEv@Base 4.95.0
  _ZN4KNS314DownloadDialog16staticMetaObjectE@Base 4.95.0
  _ZN4KNS314DownloadDialog4initERK7QString@Base 4.95.0
+ _ZN4KNS314DownloadDialog8setTitleERK7QString@Base 5.0.0
  _ZN4KNS314DownloadDialogC1EP7QWidget@Base 4.95.0
  _ZN4KNS314DownloadDialogC1ERK7QStringP7QWidget@Base 4.95.0
  _ZN4KNS314DownloadDialogC2EP7QWidget@Base 4.95.0
@@ -72,6 +73,7 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS314DownloadWidget16installedEntriesEv@Base 4.95.0
  _ZN4KNS314DownloadWidget16staticMetaObjectE@Base 4.95.0
  _ZN4KNS314DownloadWidget4initERK7QString@Base 4.95.0
+ _ZN4KNS314DownloadWidget8setTitleERK7QString@Base 5.0.0
  _ZN4KNS314DownloadWidgetC1EP7QWidget@Base 4.95.0
  _ZN4KNS314DownloadWidgetC1ERK7QStringP7QWidget@Base 4.95.0
  _ZN4KNS314DownloadWidgetC2EP7QWidget@Base 4.95.0
@@ -130,7 +132,9 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZNK4KNS312UploadDialog10metaObjectEv@Base 4.95.0
  _ZNK4KNS312UploadDialog7Private19_supportedMimeTypesEv@Base 4.95.0
  _ZNK4KNS314DownloadDialog10metaObjectEv@Base 4.95.0
+ _ZNK4KNS314DownloadDialog5titleEv@Base 5.0.0
  _ZNK4KNS314DownloadWidget10metaObjectEv@Base 4.95.0
+ _ZNK4KNS314DownloadWidget5titleEv@Base 5.0.0
  _ZNK4KNS315DownloadManager10metaObjectEv@Base 4.95.0
  _ZNK4KNS35Entry10providerIdEv@Base 4.95.0
  _ZNK4KNS35Entry14installedFilesEv@Base 4.95.0

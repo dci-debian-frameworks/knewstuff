@@ -5,6 +5,7 @@ knewstuff (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix install file 
+  * batchpatch symbols 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:39:18 +0200
 
