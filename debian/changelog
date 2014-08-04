@@ -1,4 +1,4 @@
-knewstuff (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+knewstuff (5.1.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Update copyright to match licensing to source 
@@ -9,6 +9,7 @@ knewstuff (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
+  * New upstream tar - initial was broken.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:56:32 -0700
 
