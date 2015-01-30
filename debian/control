@@ -22,7 +22,7 @@ Build-Depends: cmake (>= 2.8.11),
                qtbase5-dev (>= 5.2),
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/knewstuff.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/knewstuff.git
