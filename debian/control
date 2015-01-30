@@ -23,6 +23,7 @@ Build-Depends: cmake (>= 2.8.11),
                xauth,
                xvfb
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/knewstuff.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/knewstuff.git
