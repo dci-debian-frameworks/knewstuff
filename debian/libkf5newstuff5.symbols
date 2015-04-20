@@ -1,15 +1,17 @@
-# SymbolsHelper-Confirmed: 5.9.0+git20150416.0809+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.9.0+git20150420.0137 amd64 i386
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
- _ZN10KMoreTools33registerServiceByDesktopEntryNameERK7QStringNS_19ServiceLocatingModeE@Base 5.9.0+git20150416.0809+15.04
+ _ZN10KMoreTools33registerServiceByDesktopEntryNameERK7QStringS2_NS_19ServiceLocatingModeE@Base 5.9.0+git20150420.0137
  _ZN10KMoreToolsC1ERK7QString@Base 5.9.0+git20150416.0809+15.04
  _ZN10KMoreToolsC2ERK7QString@Base 5.9.0+git20150416.0809+15.04
  _ZN10KMoreToolsD0Ev@Base 5.9.0+git20150416.0809+15.04
  _ZN10KMoreToolsD1Ev@Base 5.9.0+git20150416.0809+15.04
  _ZN10KMoreToolsD2Ev@Base 5.9.0+git20150416.0809+15.04
+ _ZN17KMoreToolsPresets26registerServicesByCategoryEP10KMoreToolsRK11QStringList@Base 5.9.0+git20150420.0137
+ _ZN17KMoreToolsPresets33registerServiceByDesktopEntryNameEP10KMoreToolsRK7QString@Base 5.9.0+git20150420.0137
  _ZN17KMoreToolsService14setHomepageUrlERK4QUrl@Base 5.9.0+git20150416.0809+15.04
  _ZN17KMoreToolsService7setExecERK7QString@Base 5.9.0+git20150416.0809+15.04
- _ZN17KMoreToolsServiceC1EP10KMoreToolsRK7QStringb28QExplicitlySharedDataPointerI8KServiceES7_@Base 5.9.0+git20150416.0809+15.04
- _ZN17KMoreToolsServiceC2EP10KMoreToolsRK7QStringb28QExplicitlySharedDataPointerI8KServiceES7_@Base 5.9.0+git20150416.0809+15.04
+ _ZN17KMoreToolsServiceC1ERK7QStringS2_b28QExplicitlySharedDataPointerI8KServiceES5_@Base 5.9.0+git20150420.0137
+ _ZN17KMoreToolsServiceC2ERK7QStringS2_b28QExplicitlySharedDataPointerI8KServiceES5_@Base 5.9.0+git20150420.0137
  _ZN17KMoreToolsServiceD0Ev@Base 5.9.0+git20150416.0809+15.04
  _ZN17KMoreToolsServiceD1Ev@Base 5.9.0+git20150416.0809+15.04
  _ZN17KMoreToolsServiceD2Ev@Base 5.9.0+git20150416.0809+15.04
