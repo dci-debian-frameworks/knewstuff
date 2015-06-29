@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64
+# SymbolsHelper-Confirmed: 5.11.0 amd64
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN10KMoreTools33registerServiceByDesktopEntryNameERK7QStringS2_NS_19ServiceLocatingModeE@Base 5.10.0
  _ZN10KMoreToolsC1ERK7QString@Base 5.10.0
@@ -34,6 +34,7 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN21KMoreToolsMenuBuilderC2Ev@Base 5.10.0
  _ZN21KMoreToolsMenuBuilderD1Ev@Base 5.10.0
  _ZN21KMoreToolsMenuBuilderD2Ev@Base 5.10.0
+ _ZN21KMoreToolsMenuFactory25fillMenuFromGroupingNamesEP5QMenuRK11QStringListRK4QUrl@Base 5.11.0
  _ZN21KMoreToolsMenuFactory27createMenuFromGroupingNamesERK11QStringListRK4QUrl@Base 5.10.0
  _ZN21KMoreToolsMenuFactoryC1ERK7QString@Base 5.10.0
  _ZN21KMoreToolsMenuFactoryC2ERK7QString@Base 5.10.0
