@@ -1,6 +1,7 @@
 knewstuff (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release. 
+  * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Jul 2015 09:21:09 -0700
 
