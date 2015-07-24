@@ -1,7 +1,14 @@
 knewstuff (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release. 
   * Vivid backport. 
+
+  [ José Manuel Santamaría Lema ]
+  * Bump KDE Frameworks build dependencies to 5.12.0~
+
+  [ Jonathan Riddell ]
+  * Add depend on kio
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Jul 2015 09:21:09 -0700
 
