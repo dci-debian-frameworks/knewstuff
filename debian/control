@@ -46,7 +46,8 @@ Description: development files for knewstuff
 Package: libkf5newstuff5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5newstuff-data (= ${source:Version}),
+Depends: kio,
+         libkf5newstuff-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
