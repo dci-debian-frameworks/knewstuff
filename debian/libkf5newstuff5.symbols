@@ -1,4 +1,3 @@
-# SymbolsHelper-Confirmed: 5.14 amd64
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN10KMoreTools33registerServiceByDesktopEntryNameERK7QStringS2_NS_19ServiceLocatingModeE@Base 5.10.0
  _ZN10KMoreToolsC1ERK7QString@Base 5.10.0
