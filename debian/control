@@ -63,15 +63,3 @@ Description: Support for downloading application assets from the network.
  application data.
  .
  This package contains the data files.
-
-Package: libkf5newstuff5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5newstuff5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for knewstuff
- Framework for downloading and sharing additional
- application data.
- .
- Contains debug symbols for knewstuff.
