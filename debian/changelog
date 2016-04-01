@@ -1,6 +1,6 @@
-knewstuff (5.20.0-1~1.gbpb49b6c) UNRELEASED; urgency=medium
+knewstuff (5.20.0-1~2.gbp6277ec) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b49b6c0cb656e9c0bda29d17ba7af64f0ccc06f5 **
+  ** SNAPSHOT build @6277ec11df3920185ec94a8e2b534984a9dc3ab6 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ knewstuff (5.20.0-1~1.gbpb49b6c) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:51:33 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:51:14 +0200
 
 knewstuff (5.19.0-1) experimental; urgency=medium
 
