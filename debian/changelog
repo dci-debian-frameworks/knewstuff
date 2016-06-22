@@ -1,11 +1,10 @@
-knewstuff (5.23.0-1~2.gbpceacab) UNRELEASED; urgency=medium
+knewstuff (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ceacab947dacb7ad354306f9a1ec0590d792a6ce **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 22 Jun 2016 13:18:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 17:58:06 +0200
 
 knewstuff (5.22.0-1) unstable; urgency=medium
 
