@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64
+# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN10KMoreTools33registerServiceByDesktopEntryNameERK7QStringS2_NS_19ServiceLocatingModeE@Base 5.10.0
  _ZN10KMoreToolsC1ERK7QString@Base 5.10.0
@@ -91,6 +91,7 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS314DownloadWidgetD1Ev@Base 4.95.0
  _ZN4KNS314DownloadWidgetD2Ev@Base 4.95.0
  _ZN4KNS314standardActionERK7QStringPK7QObjectPKcP17KActionCollectionS7_@Base 4.95.0
+ _ZN4KNS315DownloadManager10errorFoundERK7QString@Base 5.23.0
  _ZN4KNS315DownloadManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.95.0
  _ZN4KNS315DownloadManager11qt_metacastEPKc@Base 4.95.0
  _ZN4KNS315DownloadManager12installEntryERKNS_5EntryE@Base 4.95.0
@@ -157,15 +158,24 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZNK4KNS314DownloadWidget5titleEv@Base 5.0.0
  _ZNK4KNS315DownloadManager10metaObjectEv@Base 4.95.0
  _ZNK4KNS35Entry10providerIdEv@Base 4.95.0
+ _ZNK4KNS35Entry12shortSummaryEv@Base 5.23.0
+ _ZNK4KNS35Entry13previewImagesEv@Base 5.23.0
+ _ZNK4KNS35Entry13updateVersionEv@Base 5.23.0
  _ZNK4KNS35Entry14installedFilesEv@Base 4.95.0
+ _ZNK4KNS35Entry16numberOfCommentsEv@Base 5.23.0
  _ZNK4KNS35Entry16uninstalledFilesEv@Base 4.95.0
+ _ZNK4KNS35Entry17previewThumbnailsEv@Base 5.23.0
  _ZNK4KNS35Entry2idEv@Base 4.95.0
+ _ZNK4KNS35Entry3urlEv@Base 5.23.0
  _ZNK4KNS35Entry4nameEv@Base 4.95.0
+ _ZNK4KNS35Entry4sizeEv@Base 5.23.0
+ _ZNK4KNS35Entry6ratingEv@Base 5.23.0
  _ZNK4KNS35Entry6statusEv@Base 4.95.0
  _ZNK4KNS35Entry7licenseEv@Base 4.95.0
  _ZNK4KNS35Entry7summaryEv@Base 4.95.0
  _ZNK4KNS35Entry7versionEv@Base 4.95.0
  _ZNK4KNS35Entry8categoryEv@Base 4.95.0
+ _ZNK4KNS35Entry9changelogEv@Base 5.23.0
  _ZNK4KNS36Button10metaObjectEv@Base 4.95.0
  _ZTIN4KNS312UploadDialogE@Base 4.95.0
  _ZTIN4KNS314DownloadDialogE@Base 4.95.0
