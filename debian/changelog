@@ -1,11 +1,17 @@
-knewstuff (5.25.0-1~1.gbp435065) UNRELEASED; urgency=medium
+knewstuff (5.25.0-1~2.gbpc982bc) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @c982bccb242c4123d57898f39e8fddc603a0f266 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @435065f2ed8d3756a89742053d6b468fe28e61f1 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 14:51:12 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:51:17 +0200
 
 knewstuff (5.23.0-1) unstable; urgency=medium
 
