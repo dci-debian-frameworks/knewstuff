@@ -1,3 +1,11 @@
+knewstuff (5.26.0-1~1.gbpe2ff5f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e2ff5f8bb490d3ea8f459cfb3898b24386a8d97d **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 14:51:47 +0200
+
 knewstuff (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
