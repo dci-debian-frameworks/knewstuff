@@ -1,10 +1,13 @@
-knewstuff (5.27.0-1~1.gbp63a5b6) UNRELEASED; urgency=medium
+knewstuff (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @63a5b6c1c9e4cb4e2587f207cad2e4baa3e68da2 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 14:51:54 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:06:39 +0200
 
 knewstuff (5.26.0-1) unstable; urgency=medium
 
