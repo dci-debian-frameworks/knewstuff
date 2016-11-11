@@ -1,5 +1,5 @@
 Tests: testsuite
-Depends: @, @builddeps@, build-essential, xvfb, xauth, kate
+Depends: @, @builddeps@, build-essential, xvfb, xauth
 Restrictions: build-needed
 
 Tests: acc
