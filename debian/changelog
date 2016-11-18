@@ -1,11 +1,14 @@
-knewstuff (5.28.0-1~1.gbpecd672) UNRELEASED; urgency=medium
+knewstuff (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ecd672da84fc89a73287c1daee504b0ab54e0e85 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.27.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:51:40 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:06:21 +0100
 
 knewstuff (5.27.0-1) unstable; urgency=medium
 
