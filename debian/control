@@ -42,7 +42,7 @@ Description: development files for knewstuff
  application data.
  .
  Contains development files for knewstuff.
-Breaks: libkf5kdelibs4support-dev (<< 5.27)
+Breaks: libkf5kdelibs4support-dev (<< 5.28)
 
 Package: libkf5newstuff5
 Architecture: any
