@@ -35,6 +35,7 @@ Depends: kio-dev (>= 5.26.0~),
          libkf5archive-dev (>= 5.35.0~),
          libkf5attica-dev (>= 5.35.0~),
          libkf5newstuff5 (= ${binary:Version}),
+         libkf5newstuffcore5 (= ${binary:Version}),
          libkf5xmlgui-dev (>= 5.35.0~),
          qtbase5-dev (>= 5.6.0~),
          ${misc:Depends}
@@ -55,6 +56,15 @@ Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
 
+Package: libkf5newstuffcore5
+Architecture: any
+Multi-Arch: same
+Recommends: qml-module-org-kde-newstuff (= ${binary:Version})
+Depends: kio, ${misc:Depends}, ${shlibs:Depends}
+Description: Support for downloading application assets from the network.
+ Framework for idownloading and sharing additional
+ application data.
+
 Package: libkf5newstuff-data
 Architecture: all
 Depends: ${misc:Depends}
@@ -66,3 +76,12 @@ Description: Support for downloading application assets from the network.
  application data.
  .
  This package contains the data files.
+
+Package: qml-module-org-kde-newstuff
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Support for downloading application assets from the network.
+ Framework for downloading and sharing additional
+ application data.
+ .
+ This package contains the runtime files
