@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.27.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN10KMoreTools33registerServiceByDesktopEntryNameERK7QStringS2_NS_19ServiceLocatingModeE@Base 5.10.0
  _ZN10KMoreToolsC1ERK7QString@Base 5.10.0
@@ -67,8 +67,11 @@ libKF5NewStuff.so.5 libkf5newstuff5 #MINVER#
  _ZN4KNS314DownloadDialog14changedEntriesEv@Base 4.95.0
  _ZN4KNS314DownloadDialog16installedEntriesEv@Base 4.95.0
  _ZN4KNS314DownloadDialog16staticMetaObjectE@Base 4.95.0
+ _ZN4KNS314DownloadDialog4execEv@Base 5.27.0
  _ZN4KNS314DownloadDialog4initERK7QString@Base 4.95.0
+ _ZN4KNS314DownloadDialog4openEv@Base 5.27.0
  _ZN4KNS314DownloadDialog8setTitleERK7QString@Base 5.0.0
+ _ZN4KNS314DownloadDialog9showEventEP10QShowEvent@Base 5.27.0
  _ZN4KNS314DownloadDialogC1EP7QWidget@Base 4.95.0
  _ZN4KNS314DownloadDialogC1ERK7QStringP7QWidget@Base 4.95.0
  _ZN4KNS314DownloadDialogC2EP7QWidget@Base 4.95.0
