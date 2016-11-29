@@ -61,9 +61,7 @@ Package: libkf5newstuffcore5
 Architecture: any
 Multi-Arch: same
 Recommends: qml-module-org-kde-newstuff (= ${binary:Version})
-Depends: kio,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kio, ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for idownloading and sharing additional
  application data.
@@ -82,8 +80,7 @@ Description: Support for downloading application assets from the network.
 
 Package: qml-module-org-kde-newstuff
 Architecture: any
-Depends: ${misc:Depends}, 
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
