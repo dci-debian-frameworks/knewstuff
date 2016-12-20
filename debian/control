@@ -16,6 +16,7 @@ Build-Depends: cmake (>= 2.8.11),
                libkf5iconthemes-dev (>= 5.27.0~),
                libkf5itemviews-dev (>= 5.27.0~),
                libkf5kio-dev (>= 5.27.0~),
+               libkf5newstuff-dev,
                libkf5service-dev (>= 5.27.0~),
                libkf5textwidgets-dev (>= 5.27.0~),
                libkf5widgetsaddons-dev (>= 5.27.0~),
@@ -61,9 +62,7 @@ Package: libkf5newstuffcore5
 Architecture: any
 Multi-Arch: same
 Recommends: qml-module-org-kde-newstuff (= ${binary:Version})
-Depends: kio,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kio, ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for idownloading and sharing additional
  application data.
