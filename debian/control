@@ -79,7 +79,7 @@ Description: Support for downloading application assets from the network.
 
 Package: qml-module-org-kde-newstuff
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-org-kde-kirigami, ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for downloading and sharing additional
  application data.
