@@ -1,4 +1,4 @@
-knewstuff (5.35.0-1~1) UNRELEASED; urgency=medium
+knewstuff (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -7,6 +7,8 @@ knewstuff (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump group breaks (5.35)
   * Add qtdeclarative5-dev missing build dep
   * Update symbols files
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * Add signing key
@@ -19,7 +21,7 @@ knewstuff (5.35.0-1~1) UNRELEASED; urgency=medium
   * install new file
   * fix qml deps
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 15:14:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:45:43 +0200
 
 knewstuff (5.28.0-1) unstable; urgency=medium
 
