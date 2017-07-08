@@ -5,24 +5,24 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.35.0~),
+               extra-cmake-modules (>= 5.36.0~),
                kio-dev (>= 5.26.0~),
-               libkf5archive-dev (>= 5.35.0~),
-               libkf5attica-dev (>= 5.35.0~),
-               libkf5completion-dev (>= 5.35.0~),
-               libkf5config-dev (>= 5.35.0~),
-               libkf5coreaddons-dev (>= 5.35.0~),
-               libkf5i18n-dev (>= 5.35.0~),
-               libkf5iconthemes-dev (>= 5.35.0~),
-               libkf5itemviews-dev (>= 5.35.0~),
-               libkf5kio-dev (>= 5.35.0~),
-               libkf5service-dev (>= 5.35.0~),
-               libkf5textwidgets-dev (>= 5.35.0~),
-               libkf5widgetsaddons-dev (>= 5.35.0~),
-               libkf5xmlgui-dev (>= 5.35.0~),
+               libkf5archive-dev (>= 5.36.0~),
+               libkf5attica-dev (>= 5.36.0~),
+               libkf5completion-dev (>= 5.36.0~),
+               libkf5config-dev (>= 5.36.0~),
+               libkf5coreaddons-dev (>= 5.36.0~),
+               libkf5i18n-dev (>= 5.36.0~),
+               libkf5iconthemes-dev (>= 5.36.0~),
+               libkf5itemviews-dev (>= 5.36.0~),
+               libkf5kio-dev (>= 5.36.0~),
+               libkf5service-dev (>= 5.36.0~),
+               libkf5textwidgets-dev (>= 5.36.0~),
+               libkf5widgetsaddons-dev (>= 5.36.0~),
+               libkf5xmlgui-dev (>= 5.36.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.6.0~),
-               qtdeclarative5-dev
+               qtdeclarative5-dev (>= 5.6.0~)
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/knewstuff
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/knewstuff.git
@@ -32,11 +32,11 @@ Package: libkf5newstuff-dev
 Section: libdevel
 Architecture: any
 Depends: kio-dev (>= 5.26.0~),
-         libkf5archive-dev (>= 5.35.0~),
-         libkf5attica-dev (>= 5.35.0~),
+         libkf5archive-dev (>= 5.36.0~),
+         libkf5attica-dev (>= 5.36.0~),
          libkf5newstuff5 (= ${binary:Version}),
          libkf5newstuffcore5 (= ${binary:Version}),
-         libkf5xmlgui-dev (>= 5.35.0~),
+         libkf5xmlgui-dev (>= 5.36.0~),
          qtbase5-dev (>= 5.6.0~),
          ${misc:Depends}
 Description: development files for knewstuff
