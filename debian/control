@@ -44,7 +44,7 @@ Description: development files for knewstuff
  application data.
  .
  Contains development files for knewstuff.
-Breaks: libkf5kdelibs4support-dev (<< 5.36)
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: libkf5newstuff5
 Architecture: any
@@ -64,7 +64,7 @@ Depends: kio, ${misc:Depends}, ${shlibs:Depends}
 Description: Support for downloading application assets from the network.
  Framework for idownloading and sharing additional
  application data.
-Breaks: frameworkintegration (<< 5.36)
+Breaks: frameworkintegration (<< 5.37)
 
 Package: libkf5newstuff-data
 Architecture: all
