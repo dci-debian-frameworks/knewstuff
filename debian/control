@@ -8,7 +8,6 @@ Build-Depends: cmake (>= 3.0~),
                doxygen,
                extra-cmake-modules (>= 5.41.0~),
                graphviz,
-               kio-dev (>= 5.26.0~),
                libkf5archive-dev (>= 5.41.0~),
                libkf5attica-dev (>= 5.41.0~),
                libkf5completion-dev (>= 5.41.0~),
@@ -47,9 +46,9 @@ Description: Support for downloading application assets from the network.
 Package: libkf5newstuff-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         libkf5archive-dev (>= 5.41.0~),
+Depends: libkf5archive-dev (>= 5.41.0~),
          libkf5attica-dev (>= 5.41.0~),
+         libkf5kio-dev (>= 5.26.0~),
          libkf5newstuff5 (= ${binary:Version}),
          libkf5newstuffcore5 (= ${binary:Version}),
          libkf5xmlgui-dev (>= 5.41.0~),
